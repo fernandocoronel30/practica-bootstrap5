@@ -1,0 +1,96 @@
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.card{
+    /* border: 2px solid blue; */
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.listas{
+    /* border: 2px solid blue; */
+    display: block;
+    margin: 20px 20px 20px 20px;
+}
+
+.list-group{
+    /* border: 2px solid green; */
+    margin-bottom: 20px;
+}
+
+.footer{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.row-footer{
+    /* border: 2px solid blue; */
+    /* display: flex;
+    align-items:center;
+    justify-content: space-between; */
+}
+
+.col-footer{
+    /* border: 2px solid yellow; */
+}
+
+.card-footer{
+    /* border: 2px solid black; */
+    margin: 10px;
+}
+
+
+
+@media (max-width: 767px){
+    .container{
+        /* margin-top: 20px; */
+        /* border: 2px solid red; */
+    }
+
+    .card{
+        /* border: 2px solid blue; */
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+    .listas{
+        /* border: 2px solid blue; */
+        display: block;
+        margin: 20px 20px 20px 20px;
+    }
+    
+    .list-group{
+        /* border: 2px solid green; */
+        margin-bottom: 20px;
+    }
+
+    .footer{
+        /* border: 3px solid red; */
+        text-align: center;
+        align-items: center;
+        padding-left: 70px;
+    }
+    
+    .row-footer{
+        /* border: 2px solid blue; */
+        display: block;
+        text-align: center;
+        
+    }
+
+    .col-footer{
+        /* border: 2px solid yellow; */
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        text-align: center;
+        /* margin: 20px 0 20px 0; */
+    }
+}
